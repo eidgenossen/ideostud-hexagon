@@ -33,7 +33,8 @@
     \draw (phil) -- (psych);
     \draw (phil) -- (ling);
     \draw (psych) -- (ling);
-    \draw (psych) -- ($(psych)!2.4cm!(ai)$);
+    \draw (psych) -- ($(psych)!2.4cm!(ai)$); % this is here to fix ugliness with f in Artificial being too close to the line, if you make a different label for this node, try:
+    % \draw (psych) -- (ai); 
     \draw (psych) -- (anthro);
     \draw (psych) -- (neuro);
     \draw (ai) -- (ling);
