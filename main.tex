@@ -1,7 +1,7 @@
 \documentclass[]{standalone}
 \usepackage{txfonts}
 \usepackage{pgfplots} 
- \usepackage{times}
+\usepackage{times}
 \usepackage{tikz}
 \pgfplotsset{compat=1.18} 
 \usetikzlibrary{fit, shapes, calc}
@@ -26,26 +26,26 @@
 [scale=\tikzscale]%
     \node (phil) at (90:3) {Philosophy};
     \node (psych) at (150:3) {Psychology};
-    \node (ai) at (210:3) {Artificial \\ Intelligence\par};
-    \node (neuro) at (270:3) {Neuroscience};
+    \node (pe) at (210:3) {Political \\ Economy\par};
+    \node (polsci) at (270:3) {Political \\ Science\par};
     \node (anthro) at (330:3) {Anthropology};
-    \node (ling) at (30:3) {Linguistics};
+    \node (narr) at (30:3) {Narratology};
     \draw (phil) -- (psych);
-    \draw (phil) -- (ling);
-    \draw (psych) -- (ling);
-    \draw (psych) -- ($(psych)!2.4cm!(ai)$); % this is here to fix ugliness with f in Artificial being too close to the line, if you make a different label for this node, try:
-    % \draw (psych) -- (ai); 
+    \draw (phil) -- (narr);
+    \draw (psych) -- (narr);
+    % \draw (psych) -- ($(psych)!2.4cm!(pe)$); % this is here to fix ugliness with f in Artificial being too close to the line, if you make a different label for this node, try:
+    \draw (psych) -- (pe); 
     \draw (psych) -- (anthro);
-    \draw (psych) -- (neuro);
-    \draw (ai) -- (ling);
-    \draw (ai) -- (neuro);
-    \draw (neuro) -- (ling);
-    \draw (neuro) -- (anthro);
-    \draw (anthro) -- (ling);
+    \draw (psych) -- (polsci);
+    \draw (pe) -- (narr);
+    \draw (pe) -- (polsci);
+    \draw (polsci) -- (narr);
+    \draw (polsci) -- (anthro);
+    \draw[dashed] (anthro) -- (narr);
     \draw[dashed] (phil) -- (anthro);
-    \draw[dashed] (phil) -- (neuro);
-    \draw[dashed] (phil) -- (ai);
-    \draw[dashed] (ai) -- (anthro);
+    \draw[dashed] (phil) -- (polsci);
+    \draw[dashed] (phil) -- (pe);
+    \draw[dashed] (pe) -- (anthro);
 \end{tikzpicture}%
 \end{scaletikzpicturetowidth}%
 \end{document}%
