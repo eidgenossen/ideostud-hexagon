@@ -1,0 +1,5 @@
+# ignore synctex files
+*.synctex.gz
+
+# don't save compiled pdfs
+*.pdf
