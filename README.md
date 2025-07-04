@@ -4,7 +4,9 @@
 
 ## Key
 
-Original, from CogSci: The “Cognitive Science hexagon” in 1978. Vertices represent contributing disciplines. Lines joining vertices represent the following interdisciplinary collaborations: 1 cybernetics; 2 neurolinguistics; 3 neuropsychology; 4 simulation of cognitive processes; 5 computational linguistics; 6 psycholinguistics; 7 philosophy of psychology; 8 philosophy of language; 9 anthropological linguistics; 10 cognitive anthropology; and 11 evolution of brain. Continuous lines represent consolidated collaborations; unnumbered dotted lines, in-progress ties between philosophy and computer science, neuroscience and anthropology as of 1978 (Adapted from the Sloan Report, pp. 3-ff)
+CogSci original key from [here](https://www.researchgate.net/figure/The-Cognitive-Science-hexagon-in-1978-Vertices-represent-contributing-disciplines_fig1_295395918): 
+
+> The “Cognitive Science hexagon” in 1978. Vertices represent contributing disciplines. Lines joining vertices represent the following interdisciplinary collaborations: 1 cybernetics; 2 neurolinguistics; 3 neuropsychology; 4 simulation of cognitive processes; 5 computational linguistics; 6 psycholinguistics; 7 philosophy of psychology; 8 philosophy of language; 9 anthropological linguistics; 10 cognitive anthropology; and 11 evolution of brain. Continuous lines represent consolidated collaborations; unnumbered dotted lines, in-progress ties between philosophy and computer science, neuroscience and anthropology as of 1978 (Adapted from the Sloan Report, pp. 3-ff)
 
 Ideology studies revision: 1' historical materialism; 2' Michael Freeden's semiotic-inspired morphological concept-centred model; 3' political social psychology; 4' behavioural economics; 5' undefined ; 6 psychology of language; 7 philosophy of psychology; 8 philosophy of language; 9 anthropological linguistics; 10 cognitive anthropology; 11 political anthropology.  
 
