@@ -7,7 +7,7 @@ A visual depiction of the connections between the different disciplines implicat
 
 # Generating the pdf from the TeX file in Windows
 
-I used the following stack. VS Code as IDE with the LaTeX Workshop extension. MikTex for a Windows TeX installtion - this also requires a Perl installation, so used Strawberry Perl. Verify your paths and installs from the vscode terminal with
+I used the following stack. [VS Code](https://code.visualstudio.com/download) as IDE with the [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) extension. [MikTex](https://miktex.org/download) for a Windows TeX installtion - this also requires a Perl installation, so used [Strawberry Perl](https://strawberryperl.com/). Verify your paths and installs from the vscode terminal with
 
 ```powershell
 pdflatex --version
